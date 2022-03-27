@@ -6,7 +6,7 @@
     </x-slot>
     <div class="container">
         <div class="row">
-            <div class="project-form">
+            <div class="project-form" style="padding:8rem 0;">
                 <form method="POST" action="{{route('managers.update')}}">
                 @csrf
                     <div class="form-group">

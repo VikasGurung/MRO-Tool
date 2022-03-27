@@ -1,3 +1,7 @@
+.table thead th {
+    width: 3.5rem;
+}
+
 .modal-content {
     min-height: 70vh;
 }
@@ -31,7 +35,7 @@
 }
 .table-outer {
     width: 100%;    
-    margin-top: 6rem!important;
+    padding-top: 3rem!important;
 }
 .modal {
     overflow: scroll!important;
@@ -55,7 +59,7 @@
     border-bottom: 2px solid #c3c3c3;
 }
 .vendordetails-outer {
-    margin-top: 50px;
+    margin: 1rem;
 }
 .vendors-outer table, .vendordetails-outer table {
     table-layout: fixed;
@@ -76,7 +80,7 @@
 .menu-icon {
     position: fixed;
     left: 2em;
-    top: 2em;
+    top: 1.5em;
     z-index: 3;
     cursor: pointer;
     color: #fff;
@@ -89,6 +93,7 @@
     margin: 3rem 0 1rem 0;
     justify-content: center;
     align-items: center;
+    padding: 4rem 0px 0 0;
 }
 .secondary-menu-outer .menu-itm {
     margin-left: 15px;
@@ -147,7 +152,7 @@
     color: #EFDCF9;
 }
 .custom-nav-head {
-    font-size: 1.7em;
+    font-size: 1.4rem;
 }
 .custom-nav-head .fa{
     margin-right: 10px;
@@ -166,6 +171,8 @@
     top: 0;
     left: 0;
     z-index: 2;
+    display: flex;
+    align-items: center;
 }
 .header-custom h2 {
     display: table;

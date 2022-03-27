@@ -5,7 +5,7 @@
         </h2>
     </x-slot>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="table-outer bg-white overflow-hidden shadow-sm sm:rounded-lg vendordetails-outer">
                 <div class="p-6 bg-white border-b border-gray-200">
