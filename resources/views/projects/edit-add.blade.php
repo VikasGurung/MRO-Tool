@@ -128,7 +128,7 @@
                                 </div>
                                 <div class="col-sm-12">
                                     <label for="psurveyl">Live Survey Link</label>
-                                    <input id="client_survey_url" type="text" class="form-control" name="client_survey_url" value="{{$project->client_survey_url}}" placeholder="Enter Survey Link" readonly>
+                                    <input id="client_survey_url" type="text" class="form-control" name="client_live_survey_url" value="{{$project->client_survey_url}}" placeholder="Enter Survey Link" readonly>
                                 </div>
                                 <div class="col-sm-12">
                                     <label for="psurveyl">Test Survey Link</label>

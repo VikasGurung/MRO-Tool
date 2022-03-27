@@ -217,7 +217,7 @@ class ProjectController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request)
-    {   
+    {
         if($request->_token){
             $project = Project::find($request->pki_project_id);
             if($request->ir){
@@ -238,8 +238,8 @@ class ProjectController extends Controller
             if($request->required_completes){
                 $project->required_completes = $request->required_completes;
             }
-            if($request->client_survey_url){
-                $project->client_survey_url = $request->client_survey_url;
+            if($request->client_live_survey_url){
+                $project->client_survey_url = $request->client_live_survey_url;
                 //$project->maskSurvey($request);
             }
             if($request->status){

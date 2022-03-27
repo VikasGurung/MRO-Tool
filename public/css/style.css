@@ -76,7 +76,7 @@
     position: fixed;
     left: 2em;
     top: 2em;
-    z-index: 2;
+    z-index: 3;
     cursor: pointer;
     color: #fff;
     font-weight: 900;
@@ -85,7 +85,7 @@
     display: flex;
     width: 100%;
     height: 100%;
-    margin-top: 30px;
+    margin: 3rem 0 1rem 0;
     justify-content: center;
     align-items: center;
 }
@@ -96,16 +96,17 @@
     font-family: 'Newsreader', serif;
     font-size: 1.2rem;
     font-weight: bold;
-    color: #fff;
+    color: #707070;
     letter-spacing: 1.5px;
     padding: 0.7rem 1.7rem;
-    background: #d11945;
     border-radius: 20px;
     border: none;
     outline: none;
+    text-transform: uppercase;
 }
 .secondary-menu-outer .menu-itm a:hover {
-    background-color: #940124;
+    background-color: #707070;
+    color: #fff;
     text-decoration: none;
 }
 #disableEdit, #disableVendorEdit, #vsubmit, #vcancel, #psubmit {
@@ -132,8 +133,7 @@
     font-size: 1.6rem;
 }
 .custom-bg-lpurple {
-    background: rgb(105,7,107);
-background: linear-gradient(90deg, rgba(105,7,107,1) 49%, rgba(179,14,208,1) 100%);
+    background: #000B49;
 }
 .btn-primary {
     background-color: #4ca1a3;
@@ -160,6 +160,11 @@ background: linear-gradient(90deg, rgba(105,7,107,1) 49%, rgba(179,14,208,1) 100
 .header-custom {
     min-height: 74px;
     margin-bottom: 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 .header-custom h2 {
     display: table;
@@ -290,13 +295,13 @@ background: linear-gradient(90deg, rgba(105,7,107,1) 49%, rgba(179,14,208,1) 100
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 3; /* Stay on top */
+    z-index: 4; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    background: linear-gradient(90deg, rgba(105,7,107,1) 49%, rgba(179,14,208,1) 100%);
+    background-color: #000B49;
   }
   
   /* The navigation menu links */
